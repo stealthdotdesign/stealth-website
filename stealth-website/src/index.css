@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'PitchSans';
+  src: url('/fonts/PitchSans-Regular.woff2') format('woff2'),
+       url('/fonts/PitchSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
