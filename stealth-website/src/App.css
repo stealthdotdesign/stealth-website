@@ -35,6 +35,6 @@
 
 .clock-label {
   display: inline-block;
-  width: 28px;
-  color: #FF4B33;
+  margin-right: 6px;
+  color: white;
 }

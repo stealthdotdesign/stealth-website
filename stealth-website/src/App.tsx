@@ -14,9 +14,7 @@ function formatTime(timeZone: string) {
   const h = parts.find(p => p.type === 'hour')!.value
   const m = parts.find(p => p.type === 'minute')!.value
   const s = parts.find(p => p.type === 'second')!.value
-  const ms = String(now.getMilliseconds()).padStart(3, '0')
-
-  return `${h}:${m}:${s}:${ms}`
+  return `${h}:${m}:${s}`
 }
 
 function App() {
@@ -29,7 +27,7 @@ function App() {
       setMumbai(formatTime('Asia/Kolkata'))
     }
     tick()
-    const id = setInterval(tick, 37)
+    const id = setInterval(tick, 1000)
     return () => clearInterval(id)
   }, [])
 
