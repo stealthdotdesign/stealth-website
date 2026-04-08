@@ -49,8 +49,8 @@ function App() {
         <p>UNIT 201, LEVEL 1 GATE AVENUE - SOUTH ZONE DUBAI INTERNATIONAL FINANCIAL CENTRE DUBAI, UNITED ARAB EMIRATES</p>
       </div>
       <div className="clock">
-        <p><span className="clock-label">DUBAI</span> {dubai}</p>
-        <p><span className="clock-label">MUMBAI</span> {mumbai}</p>
+        <p><span className="clock-label">DXB</span> {dubai}</p>
+        <p><span className="clock-label">MUM</span> {mumbai}</p>
       </div>
     </div>
   )
