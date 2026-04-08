@@ -1,0 +1,6 @@
+{
+  "framework": "vite",
+  "installCommand": "cd stealth-website && npm install",
+  "buildCommand": "cd stealth-website && npm run build",
+  "outputDirectory": "stealth-website/dist"
+}
