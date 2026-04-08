@@ -1,6 +1,38 @@
+import { useEffect, useState } from 'react'
 import './App.css'
 
+function formatTime(timeZone: string) {
+  const now = new Date()
+  const parts = new Intl.DateTimeFormat('en-GB', {
+    timeZone,
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: false,
+  }).formatToParts(now)
+
+  const h = parts.find(p => p.type === 'hour')!.value
+  const m = parts.find(p => p.type === 'minute')!.value
+  const s = parts.find(p => p.type === 'second')!.value
+  const ms = String(now.getMilliseconds()).padStart(3, '0')
+
+  return `${h}:${m}:${s}:${ms}`
+}
+
 function App() {
+  const [dubai, setDubai] = useState('')
+  const [mumbai, setMumbai] = useState('')
+
+  useEffect(() => {
+    const tick = () => {
+      setDubai(formatTime('Asia/Dubai'))
+      setMumbai(formatTime('Asia/Kolkata'))
+    }
+    tick()
+    const id = setInterval(tick, 37)
+    return () => clearInterval(id)
+  }, [])
+
   return (
     <div className="container">
       <svg className="stealth" viewBox="0 0 1794 384" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -15,6 +47,10 @@ function App() {
       <div className="address">
         <p>STEALTH TECHNOLOGY LIMITED</p>
         <p>UNIT 201, LEVEL 1 GATE AVENUE - SOUTH ZONE DUBAI INTERNATIONAL FINANCIAL CENTRE DUBAI, UNITED ARAB EMIRATES</p>
+      </div>
+      <div className="clock">
+        <p><span className="clock-label">DUBAI</span> {dubai}</p>
+        <p><span className="clock-label">MUMBAI</span> {mumbai}</p>
       </div>
     </div>
   )

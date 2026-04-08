@@ -5,6 +5,7 @@
   justify-content: center;
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 .stealth {
@@ -19,4 +20,20 @@
   color: white;
   text-align: center;
   line-height: 1.6;
+}
+
+.clock {
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  font-family: 'PitchSans', monospace;
+  font-size: 10px;
+  color: #999;
+  mix-blend-mode: difference;
+  line-height: 1.6;
+}
+
+.clock-label {
+  display: inline-block;
+  width: 52px;
 }
