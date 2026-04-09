@@ -1,17 +1,15 @@
 .home {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 100%;
-  min-height: 100vh;
-  position: relative;
 }
 
 .home-center {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .tagline {
@@ -55,7 +53,7 @@
   display: flex;
   width: 100%;
   gap: 16px;
-  margin-top: 160px;
+  margin-top: 0;
   padding: 0 32px;
 }
 
