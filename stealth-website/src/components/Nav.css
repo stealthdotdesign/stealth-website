@@ -32,14 +32,15 @@
   font-family: 'EditorialNew', serif;
   font-size: 14px;
   color: white;
-  font-weight: 400;
+  font-weight: 200;
+  margin-right: 6px;
 }
 
 .nav-links a,
 .nav-right a {
   font-family: 'EditorialNew', serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 200;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -102,12 +103,14 @@
   justify-content: center;
   gap: 32px;
   z-index: 105;
+  mix-blend-mode: normal;
+  isolation: isolate;
 }
 
 .mobile-menu a {
   font-family: 'EditorialNew', serif;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 200;
   color: white;
   text-decoration: none;
   text-transform: uppercase;

@@ -14,19 +14,23 @@
   align-items: center;
 }
 
-.home-logo {
-  width: 70%;
-  max-width: 1000px;
-}
-
 .tagline {
-  margin-top: 24px;
   font-family: 'EditorialNew', serif;
-  font-size: 16px;
+  font-size: 48px;
+  font-weight: 200;
   color: white;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  max-width: 900px;
+  padding: 0 32px;
+}
+
+@media (max-width: 768px) {
+  .tagline {
+    font-size: 28px;
+  }
 }
 
 .home-address {

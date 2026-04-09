@@ -8,6 +8,7 @@ export default function Nav() {
   const closeMenu = () => setMenuOpen(false)
 
   return (
+    <>
     <nav className="nav">
       <Link to="/" className="nav-logo" onClick={closeMenu}>
         <svg viewBox="0 0 1794 384" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,14 +42,15 @@ export default function Nav() {
         <span />
         <span />
       </button>
-
-      <div className={`mobile-menu ${menuOpen ? 'open' : ''}`}>
-        <Link to="/about" onClick={closeMenu}>ABOUT</Link>
-        <Link to="/our-work" onClick={closeMenu}>OUR WORK</Link>
-        <Link to="/services" onClick={closeMenu}>SERVICES</Link>
-        <Link to="/ventures" onClick={closeMenu}>VENTURES</Link>
-        <Link to="/lets-talk" onClick={closeMenu}>LET'S TALK</Link>
-      </div>
     </nav>
+
+    <div className={`mobile-menu ${menuOpen ? 'open' : ''}`}>
+      <Link to="/about" onClick={closeMenu}>ABOUT</Link>
+      <Link to="/our-work" onClick={closeMenu}>OUR WORK</Link>
+      <Link to="/services" onClick={closeMenu}>SERVICES</Link>
+      <Link to="/ventures" onClick={closeMenu}>VENTURES</Link>
+      <Link to="/lets-talk" onClick={closeMenu}>LET'S TALK</Link>
+    </div>
+    </>
   )
 }
