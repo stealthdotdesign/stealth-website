@@ -1,53 +1,5 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.page {
   width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-.stealth {
-  width: 70%;
-  max-width: 1000px;
-}
-
-.tagline {
-  margin-top: 24px;
-  font-family: 'EditorialNew', serif;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.address {
-  position: fixed;
-  bottom: 16px;
-  left: 0;
-  right: 0;
-  font-family: 'PitchSans', monospace;
-  font-size: 12px;
-  color: white;
-  text-align: center;
-  line-height: 1.6;
-}
-
-.clock {
-  position: fixed;
-  bottom: 16px;
-  left: 16px;
-  font-family: 'PitchSans', monospace;
-  font-size: 10px;
-  color: #999;
-  mix-blend-mode: difference;
-  line-height: 1.6;
-}
-
-.clock-label {
-  display: inline-block;
-  margin-right: 6px;
-  color: white;
+  min-height: 100vh;
+  background: #000;
 }
