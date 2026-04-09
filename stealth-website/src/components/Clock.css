@@ -1,0 +1,17 @@
+.clock {
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  font-family: 'PitchSans', monospace;
+  font-size: 10px;
+  color: #999;
+  mix-blend-mode: difference;
+  line-height: 1.6;
+  z-index: 50;
+}
+
+.clock-label {
+  display: inline-block;
+  margin-right: 6px;
+  color: white;
+}
