@@ -22,9 +22,9 @@ export default function Nav() {
       </Link>
 
       <div className="nav-links">
-        <Link to="/about">ABOUT</Link>
-        <Link to="/our-work">OUR WORK</Link>
-        <Link to="/services">SERVICES</Link>
+        <Link to="/about">ABOUT</Link><span className="nav-comma">, </span>
+        <Link to="/our-work">OUR WORK</Link><span className="nav-comma">, </span>
+        <Link to="/services">SERVICES</Link><span className="nav-comma">, </span>
         <Link to="/ventures">VENTURES</Link>
       </div>
 

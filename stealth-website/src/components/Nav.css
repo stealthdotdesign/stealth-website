@@ -24,13 +24,22 @@
 
 .nav-links {
   display: flex;
-  gap: 32px;
+  align-items: center;
+  gap: 0;
+}
+
+.nav-comma {
+  font-family: 'EditorialNew', serif;
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
 }
 
 .nav-links a,
 .nav-right a {
   font-family: 'EditorialNew', serif;
   font-size: 14px;
+  font-weight: 400;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -40,7 +49,8 @@
 
 .nav-links a:hover,
 .nav-right a:hover {
-  opacity: 0.6;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .nav-right {
@@ -97,10 +107,16 @@
 .mobile-menu a {
   font-family: 'EditorialNew', serif;
   font-size: 24px;
+  font-weight: 400;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.mobile-menu a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 @media (max-width: 768px) {
