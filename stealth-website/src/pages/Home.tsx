@@ -35,6 +35,7 @@ export default function Home() {
     <div className="home">
       <div className="home-center">
         <p className="tagline">WE DESIGN AND BUILD CREATIVE, TECHNOLOGY-DRIVEN EXPERIENCES.</p>
+        <p className="subtitle">FROM AI PRODUCT DESIGN AND FULL-STACK ENGINEERING TO STRATEGY AND AI DIGITAL TRANSFORMATION, WE HELP COMPANIES BUILD INTELLIGENT DIGITAL EXPERIENCES ACROSS THE 360° BRAND LIFECYCLE</p>
       </div>
       <div className="home-address">
         <p>STEALTH TECHNOLOGY LIMITED</p>

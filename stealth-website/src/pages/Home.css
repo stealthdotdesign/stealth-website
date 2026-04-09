@@ -27,9 +27,27 @@
   padding: 0 32px;
 }
 
+.subtitle {
+  margin-top: 24px;
+  font-family: 'PitchSans', monospace;
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  line-height: 1.7;
+  max-width: 700px;
+  padding: 0 32px;
+}
+
 @media (max-width: 768px) {
   .tagline {
     font-size: 28px;
+  }
+
+  .subtitle {
+    font-size: 11px;
   }
 }
 
