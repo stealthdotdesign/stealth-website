@@ -25,8 +25,7 @@ export default function Nav() {
       <div className="nav-links">
         <Link to="/about">ABOUT</Link><span className="nav-comma">, </span>
         <Link to="/our-work">OUR WORK</Link><span className="nav-comma">, </span>
-        <Link to="/services">SERVICES</Link><span className="nav-comma">, </span>
-        <Link to="/ventures">VENTURES</Link>
+        <Link to="/services">SERVICES</Link>
       </div>
 
       <div className="nav-right">
@@ -48,7 +47,6 @@ export default function Nav() {
       <Link to="/about" onClick={closeMenu}>ABOUT</Link>
       <Link to="/our-work" onClick={closeMenu}>OUR WORK</Link>
       <Link to="/services" onClick={closeMenu}>SERVICES</Link>
-      <Link to="/ventures" onClick={closeMenu}>VENTURES</Link>
       <Link to="/lets-talk" onClick={closeMenu}>LET'S TALK</Link>
     </div>
     </>
