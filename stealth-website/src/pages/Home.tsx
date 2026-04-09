@@ -9,7 +9,7 @@ export default function Home() {
       </div>
       <div className="home-images">
         <img src="/serve-society.jpg" alt="Serve Society" />
-        <img src="/serve-society.jpg" alt="Project" />
+        <img src="/pacha.jpg" alt="Pacha" />
       </div>
     </div>
   )
