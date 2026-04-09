@@ -38,8 +38,8 @@ export default function Home() {
         <p className="subtitle">FROM AI PRODUCT DESIGN AND FULL-STACK ENGINEERING TO STRATEGY AND AI DIGITAL TRANSFORMATION, WE HELP COMPANIES BUILD INTELLIGENT DIGITAL EXPERIENCES ACROSS THE 360° BRAND LIFECYCLE</p>
       </div>
       <div className="home-images">
-        <img src="/serve-society.png" alt="Serve Society" />
-        <img src="/serve-society.png" alt="Project" />
+        <img src="/serve-society.jpg" alt="Serve Society" />
+        <img src="/serve-society.jpg" alt="Project" />
       </div>
       <div className="home-address">
         <p>STEALTH TECHNOLOGY LIMITED</p>
