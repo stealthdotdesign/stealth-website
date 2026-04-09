@@ -2,17 +2,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
   padding: 120px 64px;
 }
 
 .about-text {
   font-family: 'PitchSans', monospace;
-  font-size: 40px;
+  font-size: 14px;
   font-weight: 400;
   color: white;
   text-align: center;
-  line-height: 1.4;
-  max-width: 1200px;
+  text-transform: uppercase;
+  line-height: 1.8;
+  max-width: 800px;
 }
 
 @media (max-width: 768px) {
@@ -21,6 +23,6 @@
   }
 
   .about-text {
-    font-size: 22px;
+    font-size: 12px;
   }
 }
