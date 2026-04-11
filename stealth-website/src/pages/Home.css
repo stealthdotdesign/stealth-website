@@ -47,6 +47,14 @@
   .subtitle {
     font-size: 16px;
   }
+
+  .home-images {
+    flex-direction: column;
+  }
+
+  .home-images img {
+    width: 100%;
+  }
 }
 
 .home-images {
