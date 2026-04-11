@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <div className="home">
       <div className="home-center">
-        <p className="tagline">WE DESIGN AND BUILD CREATIVE, TECHNOLOGY-DRIVEN EXPERIENCES.</p>
-        <p className="subtitle">FROM AI PRODUCT DESIGN AND FULL-STACK ENGINEERING TO STRATEGY AND AI DIGITAL TRANSFORMATION, WE HELP COMPANIES BUILD INTELLIGENT DIGITAL EXPERIENCES ACROSS THE 360° BRAND LIFECYCLE</p>
+        <p className="tagline">Design Matters.</p>
+        <p className="subtitle">A Digital Experience Studio for Brand, Technology & Creative</p>
       </div>
       <div className="home-images">
         <img src="/serve-society.jpg" alt="Serve Society" />
