@@ -50,6 +50,8 @@
 
   .home-images {
     flex-direction: column;
+    padding: 0;
+    gap: 0;
   }
 
   .home-images img {
