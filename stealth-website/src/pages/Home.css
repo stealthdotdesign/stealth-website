@@ -27,7 +27,7 @@
 
 .subtitle {
   margin-top: 24px;
-  font-family: 'PitchSans', monospace;
+  font-family: -apple-system, 'SF Pro Display', BlinkMacSystemFont, system-ui, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: white;

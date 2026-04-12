@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 16px;
   left: 16px;
-  font-family: 'PitchSans', monospace;
+  font-family: -apple-system, 'SF Pro Display', BlinkMacSystemFont, system-ui, sans-serif;
   font-size: 10px;
   color: #999;
   mix-blend-mode: difference;
