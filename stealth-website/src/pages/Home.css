@@ -13,14 +13,14 @@
 }
 
 .tagline {
-  font-family: 'EditorialNew', serif;
+  font-family: -apple-system, 'SF Pro Display', BlinkMacSystemFont, system-ui, sans-serif;
   font-size: 200px;
-  font-weight: 200;
+  font-weight: 700;
   color: white;
   text-align: center;
-  text-transform: none;
+  text-transform: uppercase;
   letter-spacing: -2px;
-  line-height: 0.9;
+  line-height: 0.8;
   max-width: 1200px;
   padding: 0 32px;
 }
